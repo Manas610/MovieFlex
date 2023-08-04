@@ -7,7 +7,7 @@ export const MovieCard = ({movie}) => {
   const image = poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : Backup;
 
   return (
-    <div>
+    <div className="flex items-stretch">
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
         <Link to={`/movie/${id}`}>
           <img
