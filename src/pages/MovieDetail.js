@@ -27,7 +27,10 @@ export const MovieDetail = () => {
     <main>
       <section className="flex justify-around flex-wrap py-5">
         <div className="max-w-sm">
+          <div className="flex">
+          <h2 className="text-4xl text-gray-700 dark:text-white text-center [writing-mode:vertical-lr]">{movie.title}</h2>
           <img className="rounded" src={image} alt="Movie Poster" />
+          </div>
           <p className="text-gray-700 dark:text-white text-center py-4 text-2xl">"{movie.tagline}"</p>
         </div>
         <div className="max-w-2xl text-gray-700 dark:text-white">

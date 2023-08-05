@@ -43,7 +43,7 @@ export const Header = () => {
               className="h-8 mr-3"
               alt="MovieFlex Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:text-blue-600 dark:hover:text-blue-600">
               MovieFlex
             </span>
           </NavLink>
