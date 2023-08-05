@@ -40,7 +40,7 @@ export const MovieDetail = () => {
               {movie.genres.map((genre) => (
                 <span
                   key={genre.id}
-                  className="mr-2 border border-gray-200 rounded dark:border-gray-600 p-2"
+                  className="mr-2 border border-gray-200 rounded dark:border-gray-600 p-2 select-none"
                 >
                   {genre.name}
                 </span>
